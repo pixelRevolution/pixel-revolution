@@ -1,0 +1,16 @@
+.content-text-about{
+    width: 60%;
+    margin: 60px auto;
+}
+
+.content-text-about h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.content-text-about p{
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: justify;
+}

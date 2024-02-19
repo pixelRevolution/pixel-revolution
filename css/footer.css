@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.footer-img-insta{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-img-insta img{
+    width: 200px;
+}
+
+.footer-img-insta p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #1D1D39;
+}

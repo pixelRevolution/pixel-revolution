@@ -1,0 +1,14 @@
+Paleta de cores da PIXEL REVOLUCION:
+
+- Cor principal: #1D1D39;
+- Cor secundaria: #333250;
+- Cor terciaria: #3E3467;
+- Cor quartiaria: #C1C2D9;
+- Cor quitiaria: #C1C5D6;
+- Cor branca: #FFFFFF;
+- Cor preta: #000000;
+
+
+Link logo: https://i.postimg.cc/NjnnHMfG/Pixel-revolution-semfundo.png;
+Link da logo: https://i.postimg.cc/vTj6msWt/Pixel-revolution-welcome.png;
+Link da logo deitada: https://i.postimg.cc/90Lwy1mQ/pixel-revolution-deitada.png;

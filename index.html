@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/welcome.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/games.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/equipe.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.postimg.cc/L56NvcLz/Pixel-revolution-logo.png" type="image/x-icon">
+    <title>Pixel Revolution - Viva essa experiencia!</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <img src="https://i.postimg.cc/90Lwy1mQ/pixel-revolution-deitada.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <ul class="list-navbar">
+                <li class="pag-nav">
+                    <a href="./">Página principal</a>
+                </li>
+                <li class="pag-nav">
+                    <a href="./jogos/">Jogos</a>
+                </li>
+                <li class="pag-nav cat">
+                    <a href="#">Categorias<i class='bx bx-chevron-down' ></i></a>
+                    <ul>
+                        <li><a href="./categorias/3D/">3D</a></li>
+                        <hr>
+                        <li><a href="./categorias/2D/">2D</a></li>
+                    </ul>
+                </li>
+                <li class="pag-nav">
+                    <a href="About/">About</a>
+                </li>
+            </ul>
+        </nav>
+        <form class="search-content" action="./pesquisar/" method="get">
+            <input autocomplete="off" id="searchInput" name="search" required maxlength="30" placeholder="Pesquise aqui seus jogos..." type="text" class="search-input">
+            <button onclick="btnSearch()"><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+    <!-- Fim Header -->
+
+    <!--welcome-->
+    <section class="welcome">
+        <div class="text-content-welcome">
+            <div class="text-welcome">
+                <h2>SEJA BEM-VINDO!</h2>
+                <h1>PIXEL REVOLUTION</h1>
+                <h3>VIVA ESSA EXPERIENCIA!</h3>
+            </div>
+            <div class="button-welcome">
+                <a href="./About/" class="about-btn-welcome">Conheça-nos</a>
+                <a href="#equipe" class="equipe">Equipe</a>
+            </div>
+        </div>
+        <img src="https://i.postimg.cc/NjnnHMfG/Pixel-revolution-semfundo.png" alt="logo-welcome">
+    </section>
+    <!--welcome-->
+
+    <!-- Jogos Início-->
+    <div class="games-content">
+        <h1 class="title">
+            Nossos Jogos
+        </h1>
+        <div id="jogos-div" class="jogos-content-inic"></div>
+    </div>
+    <!-- Fim Jogos Início-->
+
+    <!--Equipe-->
+    <section id="equipe" class="equipe-section">
+        <h2 class="title-equipe">Equipe</h2>
+        <div class="equipe-content">
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Matheus Guilherme</h1>
+                <h3>Product Owner</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Júlio César</h1>
+                <h3>Scrum Master</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Giulianno Monteiro</h1>
+                <h3>Scrum Team</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Vínicius Bezerra</h1>
+                <h3>Scrum Team</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Lucas Henrique</h1>
+                <h3>Scrum Team</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>João Henrique</h1>
+                <h3>Scrum Team</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+            <div class="pessoas">
+                <img src="https://pbs.twimg.com/profile_images/1085239615689293825/XLmISw5p_400x400.jpg" alt="ft-pessoas">
+                <h1>Davi Souza</h1>
+                <h3>Scrum Team</h3>
+                <p>Meu nome é esse aí mesmo, sou isso aí que eu disse, e gosto de fazer essas coisas aí que nem mencionei. Moro ali e vim dali, faz seu corre logo que eu tou atrasado. É isso aí, tamo junto, te amo lek. Rapgod é melhor que RapLord. Isso que falei é mentira tá?! Tamo junto.</p>
+            </div>
+        </div>
+    </section>
+    <!--Equipe-->
+
+    <!--mobile-->
+    <nav class="mobile-navbar">
+        <ul class="list-nav">
+            <li><a href="./"><i class='bx bx-home'></i><span>Página inicial</span></a></li>
+            <li><a href="./jogos/"><i class='bx bx-joystick'></i><span>Jogos</span></a></li>
+            <li class="categorias-mobile">
+                <ul class="list-mobile">
+                    <li><a href="./categorias/3D/">3D</a></li>
+                    <hr>
+                    <li><a href="./categorias/2D/">2D</a></li>
+                </ul>
+                <i class='bx bx-chevron-up'></i><span>Categorias</span>
+            </li>
+            <li><a href="./About/"><img src="https://i.postimg.cc/L56NvcLz/Pixel-revolution-logo.png" alt="logo-about"><span>About</span></a></li>
+        </ul>
+    </nav>
+    <!--fim mobile-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-img-insta">
+            <img src="https://i.postimg.cc/90Lwy1mQ/pixel-revolution-deitada.png" alt="logo">
+            <p><i class='bx bx-copyright'></i> Pixel Revolution, 2024</p>
+        </div>
+    </footer>
+    <!--Footer-->
+
+    <script type="module" src="js/jogosContent.js"></script>
+
+</body>
+</html>

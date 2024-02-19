@@ -1,0 +1,94 @@
+.welcome{
+    width: 100%;
+    height: 90vh;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .text-content-welcome{
+    width: 50%;
+    animation: welcome .7s;
+}
+
+.welcome .text-content-welcome .text-welcome{
+    text-align: center;
+}
+
+.welcome .text-content-welcome .text-welcome h2, .welcome .text-content-welcome .text-welcome h3, .welcome .text-content-welcome .text-welcome h1{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.welcome .text-content-welcome .text-welcome h2{
+    font-size: 40px;
+    text-decoration: underline;
+    color: #1D1D39;
+    margin-bottom: 20px;
+}
+
+.welcome .text-content-welcome .text-welcome h1{
+    font-size: 70px;
+    color: #1D1D39;
+}
+
+.welcome .text-content-welcome .text-welcome h3{
+    font-size: 40px;
+    color: #1D1D39;
+}
+
+.welcome .button-welcome{
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome .button-welcome .about-btn-welcome{
+    margin: 0 10px;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    background: #1D1D39;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.welcome .button-welcome .equipe{
+    margin: 0 10px;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    background: #FFFFFF;
+    color: #1D1D39;
+    border: 1px solid #1D1D39;
+    border-radius: 10px;
+}
+
+.welcome .button-welcome a{
+    transition: .3s;
+}
+
+.welcome .button-welcome a:hover{
+    transform: scale(1.05);
+}
+
+.welcome img{
+    width: 30%;
+    animation: welcome .7s;
+}
+
+@keyframes welcome {
+    0%{
+        transform: scale(0.5);
+    }
+
+    75%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1.0);
+    }
+}

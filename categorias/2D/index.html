@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/categ.css">
+    <link rel="stylesheet" href="../../css/games.css">
+    <link rel="stylesheet" href="../../css/mobile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.postimg.cc/L56NvcLz/Pixel-revolution-logo.png" type="image/x-icon">
+    <title>Pixel Revolucion - 2D</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="https://i.postimg.cc/90Lwy1mQ/pixel-revolution-deitada.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <ul class="list-navbar">
+                <li class="pag-nav">
+                    <a href="../../">Página principal</a>
+                </li>
+                <li class="pag-nav">
+                    <a href="../../jogos/">Jogos</a>
+                </li>
+                <li class="pag-nav cat">
+                    <a href="#">Categorias<i class='bx bx-chevron-down' ></i></a>
+                    <ul>
+                        <li><a href="../3D/">3D</a></li>
+                        <hr>
+                        <li><a href="./">2D</a></li>
+                    </ul>
+                </li>
+                <li class="pag-nav">
+                    <a href="../../About/">About</a>
+                </li>
+            </ul>
+        </nav>
+        <form class="search-content" action="../../pesquisar/" method="get">
+            <input autocomplete="off" id="searchInput" name="search" required maxlength="30" placeholder="Pesquise aqui seus jogos..." type="text" class="search-input">
+            <button onclick="btnSearch()"><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+    <!-- Fim Header -->
+
+    <section id="categ-2d" class="categ">
+
+    </section>
+
+    <!--mobile-->
+    <nav class="mobile-navbar">
+        <ul class="list-nav">
+            <li><a href="../../"><i class='bx bx-home'></i><span>Página inicial</span></a></li>
+            <li><a href="../../jogos/"><i class='bx bx-joystick'></i><span>Jogos</span></a></li>
+            <li class="categorias-mobile">
+                <ul class="list-mobile">
+                    <li><a href="../3D/">3D</a></li>
+                    <hr>
+                    <li><a href="./">2D</a></li>
+                </ul>
+                <i class='bx bx-chevron-up'></i><span>Categorias</span>
+            </li>
+            <li><a href="../../About/"><img src="https://i.postimg.cc/L56NvcLz/Pixel-revolution-logo.png" alt="logo-about"><span>About</span></a></li>
+        </ul>
+    </nav>
+    <!--fim mobile-->
+    
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-img-insta">
+            <img src="https://i.postimg.cc/90Lwy1mQ/pixel-revolution-deitada.png" alt="logo">
+            <p><i class='bx bx-copyright'></i> Pixel Revolution, 2024</p>
+        </div>
+    </footer>
+    <!--Footer-->
+
+    <script type="module" src="../../js/categ2D.js"></script>
+
+</body>
+</html>
