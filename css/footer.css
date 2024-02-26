@@ -1,10 +1,11 @@
 .footer{
     width: 100%;
-    height: 80px;
+    height: 120px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .footer-img-insta{
@@ -22,5 +23,11 @@
 .footer-img-insta p{
     font-size: 14px;
     font-weight: 300;
+    color: #1D1D39;
+}
+
+.content-rds i{
+    margin: 0 5px;
+    font-size: 22px;
     color: #1D1D39;
 }

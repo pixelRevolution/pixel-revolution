@@ -32,7 +32,8 @@
 }
 
 .equipe-section .equipe-content .pessoas img{
-    width: 50%;
+    width: 150px;
+    height: 150px;
     margin-bottom: 20px;
     border-radius: 100%;
 }
@@ -47,5 +48,6 @@
 
 .equipe-section .equipe-content .pessoas p{
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    width: 90%;
 }

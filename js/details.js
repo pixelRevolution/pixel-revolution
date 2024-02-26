@@ -43,10 +43,11 @@ document.addEventListener('DOMContentLoaded', function () {
     divGame.appendChild(nomeProduto);
     divGame.appendChild(descGame);
     divGame.appendChild(generogame);
-    divGame.appendChild(precoProduto);
-    divGame.appendChild(vercaoGame);
-    divGame.appendChild(btnGame);
-  
+    if(produto.tipo === "2D" || produto.tipo === "3D"){
+      divGame.appendChild(precoProduto);
+      divGame.appendChild(btnGame);
+      divGame.appendChild(vercaoGame);
+    }
     detalhesProduto.appendChild(divDetalhes);
   });
   

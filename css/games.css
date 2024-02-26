@@ -21,8 +21,8 @@
     width: 80%;
     margin: 40px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px, auto));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+    gap: 3rem;
 }
 
 .games{
@@ -35,8 +35,8 @@
     position: relative;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    display: flex;
     transition: .3s;
+    max-width: 550px;
 }
 
 .games:hover{
@@ -44,9 +44,10 @@
 }
 
 .games img{
-    width: 50%;
-    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 2em #000;
 }
 
 .games h1{
