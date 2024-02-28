@@ -24,10 +24,6 @@ document.addEventListener("DOMContentLoaded", function(){
         divGame.classList.add("text-game")
         gameElement.appendChild(divGame);
 
-        const textGame = document.createElement("h1");
-        textGame.textContent = game.nome;
-        divGame.appendChild(textGame);
-
         const descGame = document.createElement("p");
         descGame.textContent = game.descricao;
         divGame.appendChild(descGame);

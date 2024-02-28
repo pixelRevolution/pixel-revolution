@@ -45,22 +45,15 @@
 
 .games img{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 2em #000;
-}
-
-.games h1{
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: 400;
 }
 
 .games p{
     font-size: 15px;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-align: justify;

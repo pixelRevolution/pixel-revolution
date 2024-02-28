@@ -1,10 +1,10 @@
 const jogos = [
     {
         id: "0000001",
-        nome: "There is danger inside",
-        image: "https://i.postimg.cc/d0YKDyV5/jogo.webp",
+        nome: "Empty Place",
+        image: "https://i.postimg.cc/TwPj7Fs5/image0-waifu2x-art-noise3.png",
         vercao: "1.0.0",
-        descricao: "Explore uma espaçonave inteira com diversas passagens e segredos. Fuja e DESTRUA alienígenas DE FORMA BRUTAL, usando as mais variadas Armas estilo cyberpunk IRADAS! Mas lembrem-se, a munição acaba rápido e quando acabar, corra ou se esconda. O jogo se passa dentro de uma espaçonave onde alienígenas grotescos invadem a espaçonave e começam a matar os tripulantes sua missão é matar os alienígenas e fugir quando necessário e fugir na espaçonave o quanto antes.",
+        descricao: "Um jogo de plataforma 2D side-scroller onde o jogador está em uma nave espacial infestada por vários aliens, referidos como criptomorfos. Quanto mais o jogador avança, mais claustofóbicas as fases ficam e mais tipos de aliens são introduzidos. O jogador iráencontrar diferentes armas durante seu caminho que poderá usar contra os criptomorfos.O jogo terá 10 fases, um diferente da outra. No meio da fase 5, a energia da nave irá cair e asfracas luzes apagam de uma vez. No final, o jogador terá que enfrentar a rainha alien. Após isso, vários jogos irão chocar e o jogador terá que correr em direção à sala de controle, com uma chave. Ao virar a chave, o jogador ativa a sequência de auto-destruição, devendo correr em direção ao módulo de escape. A virada de chave fará tocar um alto som de uma sirene constante. Assim, podefugir, enquanto a nave explode com os aliens dentro.",
         preco: "Grátis",
         genero: "Terror, sobrevivência,Tiro, 2D",
         tipo: "2D"
