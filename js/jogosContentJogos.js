@@ -28,6 +28,11 @@ document.addEventListener("DOMContentLoaded", function(){
         descGame.textContent = game.descricao;
         divGame.appendChild(descGame);
 
+        const generoGame = document.createElement("p");
+        generoGame.textContent = `Gênero: ${game.genero}`;
+        divGame.appendChild(generoGame);
+        generoGame.classList.add("genero-game")
+
         const precoGame = document.createElement("h2");
         precoGame.textContent = game.preco;
         divGame.appendChild(precoGame);

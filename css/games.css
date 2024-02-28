@@ -60,6 +60,11 @@
     margin-bottom: 10px;
 }
 
+.games .genero-game{
+    font-weight: 200;
+    text-decoration: underline;
+}
+
 .games h2{
     font-weight: 200;
     font-size: 17px;
