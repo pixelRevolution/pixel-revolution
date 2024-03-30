@@ -18,6 +18,36 @@ const jogos = [
         preco: "Grátis",
         genero: "Guerra, ação e estratégia",
         tipo: "Tabuleiro"
+    },
+    {
+        id: "0000003",
+        nome: "Camada do Brasil",
+        image: "https://i.postimg.cc/jdgQGhKF/Whats-App-Image-2024-03-27-at-11-12-28.jpg",
+        vercao: "1.0.0",
+        descricao: "Camada do Brasil é um jogo de  hack in Slash de plataforma 2D   ULTRA FRENÉTICO com uma variedade inacreditável de itens poderes e habilidades  juntamente com elementos de RPG e exploração ambientado em uma cidade distópica de Pernambuco chamada Camaragibe. você controla um grupo de mercenários que ganharam Poderes e matam por dinheiro. monstros fantasmas demônios alienígenas e outras coisas bizarras não escapam",
+        preco: "Grátis",
+        genero: "Exploração",
+        tipo: "2D"
+    },
+    {
+        id: "0000004",
+        nome: "Nichoarch",
+        image: "https://i.postimg.cc/7hJSgFJ8/Whats-App-Image-2024-03-27-at-11-12-42.jpg",
+        vercao: "1.0.0",
+        descricao: "Nichoarch se trata de uma noite Perpétua onde você precisa sobreviver em um ambiente escuro e solitário. A sua únicas companhias são frio,chuva, fogueiras e monstros  querendo ceifar a sua vida",
+        preco: "Grátis",
+        genero: "Sobrevivência",
+        tipo: "2D"
+    },
+    {
+        id: "0000005",
+        nome: "Hurry Up",
+        image: "https://i.postimg.cc/tgbp3WfB/Whats-App-Image-2024-03-27-at-11-12-55.jpg",
+        vercao: "1.0.0",
+        descricao: "Uma guerra civil está acontecendo um dos exércitos está bombardeando violentamente o outro exército, Você faz parte do exército que está sendo bombardeado. Portanto...Se apresse ",
+        preco: "Grátis",
+        genero: "Guerra, ação e estratégia",
+        tipo: "2D"
     }
 ];
 
