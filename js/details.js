@@ -1,6 +1,5 @@
-// detalhes.js
 document.addEventListener('DOMContentLoaded', function () {
-    const detalhesProduto = document.getElementById('detalhes-produto');
+    const detalhesProduto = document.getElementById('detalhes-game');
   
     // Obtém os parâmetros da URL para obter o produto selecionado
     const params = new URLSearchParams(window.location.search);
@@ -31,8 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
     vercaoGame.classList.add('vercao-game');
 
     const btnGame = document.createElement('div');
-    btnGame.innerHTML = `<a href="#" download="#" class"download-game">Fazer o download</a>`
+    btnGame.innerHTML = `<a href="#" download="${produto.image}" class"download-game">Fazer o download</a>`
     btnGame.classList.add('btns-game');
+
+    btnGame.addEventListener("click", function(){
+      alert("O jogo ainda não está lançado! Você está apenas baixando a imagem do jogo. Para fazer o download do jogo, espere a data de lançamento que ainda será informada.")
+    })
 
     const generogame = document.createElement('p');
     generogame.textContent = `Gênero: ${produto.genero}`

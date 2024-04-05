@@ -86,3 +86,31 @@
     border: 1px solid #333250;
     color: #333250;
 }
+
+.alert-download{
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10em #000;
+    max-width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    text-align: center;
+    display: none;
+}
+
+.alert-download p{
+    color: #333250;
+    margin-bottom: 10px;
+}
+
+.alert-download button{
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    background: #C1C5D6;
+}

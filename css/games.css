@@ -37,6 +37,7 @@
     cursor: pointer;
     transition: .3s;
     max-width: 500px;
+    max-height: 500px;
 }
 
 .games:hover{
