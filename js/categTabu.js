@@ -7,7 +7,7 @@ function redirecionarParaDetalhes(game) {
 
 document.addEventListener("DOMContentLoaded", function(){
     
-    const jogosContent3D = document.getElementById("categ-3d");
+    const JogosContentTabu = document.getElementById("categ-tabu");
     const errorGame = document.createElement("p");
     errorGame.textContent = "Ainda estamos em desenvolvimento, acompanhe nossa página no instagram e siganos para mais atualizaçõoes."
     errorGame.classList.add("erro-game");
@@ -16,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
         if(game.tipo != "Tabuleiro"){
 
-            jogosContent3D.appendChild(errorGame);
+            JogosContentTabu.appendChild(errorGame);
 
         } else{
 
-            jogosContent3D.removeChild(errorGame);
+            JogosContentTabu.removeChild(errorGame);
 
             const gameElement = document.createElement("div");
             gameElement.classList.add("games");
-            jogosContent3D.appendChild(gameElement);
+            JogosContentTabu.appendChild(gameElement);
 
             const imagemGame = document.createElement("img");
             imagemGame.src = game.image;
