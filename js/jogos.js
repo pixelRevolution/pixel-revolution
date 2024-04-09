@@ -11,7 +11,7 @@ const jogos = [
     },
     {
         id: "0000003",
-        nome: "Camada do Brasil",
+        nome: "Cambada do Brasil",
         image: "https://i.postimg.cc/jdgQGhKF/Whats-App-Image-2024-03-27-at-11-12-28.jpg",
         vercao: "1.0.0",
         descricao: "Camada do Brasil é um jogo de  hack in Slash de plataforma 2D   ULTRA FRENÉTICO com uma variedade inacreditável de itens poderes e habilidades  juntamente com elementos de RPG e exploração ambientado em uma cidade distópica de Pernambuco chamada Camaragibe. você controla um grupo de mercenários que ganharam Poderes e matam por dinheiro. monstros fantasmas demônios alienígenas e outras coisas bizarras não escapam",
