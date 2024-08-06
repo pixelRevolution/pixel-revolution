@@ -30,7 +30,7 @@ const jogos = [
         preco: "Grátis",
         genero: "Sobrevivência",
         tipo: "2D",
-        download: ""
+        download: "../jogo/nicto.zip"
     },
     {
         id: "0000005",
