@@ -23,7 +23,7 @@ const jogos = [
     },
     {
         id: "0000004",
-        nome: "Nichoarch",
+        nome: "Nictoarch",
         image: "https://i.postimg.cc/7hJSgFJ8/Whats-App-Image-2024-03-27-at-11-12-42.jpg",
         vercao: "1.0.0",
         descricao: "O Nictoarch (estilizado como nictoarch) é um survival horror similar a um RPG com elementos de puzzle e investigação, onde o protagonista se encontra em uma floresta completamente escura, cabendo a ele explorar o ambiente e se proteger de monstros com a luz do fogo. No decorrer da narrativa, o protagonista irá descobrir, através de notas e pesadelos, o motivo de estar ali, se tornando um monstro cuja única razão de existir é causar sofrimento àqueles que vieram depois.",
