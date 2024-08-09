@@ -1,4 +1,4 @@
-import jogos from "../jogos.js";
+import jogos from "./jogos.js";
 
 function redirecionarParaDetalhes(game) {
     // Redireciona para uma página de detalhes com informações maiores
