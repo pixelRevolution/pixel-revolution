@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     vercaoGame.classList.add('vercao-game');
 
     const btnGame = document.createElement('div');
-    btnGame.innerHTML = `<a href="#" download="" class"download-game">Fazer o download</a>`
+    btnGame.innerHTML = `<a href="#">Fazer o download</a>`
     btnGame.classList.add('btns-game');
 
     btnGame.addEventListener("click", function(){
