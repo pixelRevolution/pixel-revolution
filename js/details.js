@@ -30,11 +30,14 @@ document.addEventListener('DOMContentLoaded', function () {
     vercaoGame.classList.add('vercao-game');
 
     const btnGame = document.createElement('div');
-    btnGame.innerHTML = `<a href="#" download="${produto.download}" class"download-game">Fazer o download</a>`
+    btnGame.innerHTML = `<a href="#" download="" class"download-game">Fazer o download</a>`
     btnGame.classList.add('btns-game');
 
     btnGame.addEventListener("click", function(){
-      alert("O jogo ainda não está lançado! Você está apenas baixando a imagem do jogo. Para fazer o download do jogo, espere a data de lançamento que ainda será informada.")
+      if(produto.download === ""){
+          alert("O jogo ainda não está lançado! Você está apenas baixando a imagem do jogo. Para fazer o download do jogo, espere a data de lançamento que ainda será informada.")
+      } else{
+          window.location.href = "https://docs.google.com/document/d/1bDMhw4eu6Y9xOurEZbTEL1vRb8X4Yd2W/edit?usp=drivesdk&ouid=117419776365755651051&rtpof=true&sd=true"
     })
 
     const generogame = document.createElement('p');
