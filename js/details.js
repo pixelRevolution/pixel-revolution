@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
       if(produto.download === ""){
           alert("O jogo ainda não está lançado! Você está apenas baixando a imagem do jogo. Para fazer o download do jogo, espere a data de lançamento que ainda será informada.")
       } else{
-          window.location.href = "https://docs.google.com/document/d/1bDMhw4eu6Y9xOurEZbTEL1vRb8X4Yd2W/edit?usp=drivesdk&ouid=117419776365755651051&rtpof=true&sd=true"
+          window.location.href = "https://docs.google.com/document/d/1bDMhw4eu6Y9xOurEZbTEL1vRb8X4Yd2W/edit?usp=drivesdk&ouid=117419776365755651051&rtpof=true&sd=true";
+      }
     })
 
     const generogame = document.createElement('p');
