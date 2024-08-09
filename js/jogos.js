@@ -30,7 +30,7 @@ const jogos = [
         preco: "Grátis",
         genero: "Sobrevivência",
         tipo: "2D",
-        download: ""
+        download: "../jogo/nictoarch"
     },
     {
         id: "0000005",
